@@ -1,0 +1,41 @@
+WARNING: You are not licensed to use this package on this cluster because you do not have the Data Science add-on.
+WARNING: You are not licensed to use this package on this cluster because you do not have the Data Science add-on.
+2019-06-13 02:01:38.465865: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:83:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2019-06-13 02:01:38.465918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-06-13 02:01:38.662034: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:83:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2019-06-13 02:01:38.662084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-06-13 02:01:38.837978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-13 02:01:38.838029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-06-13 02:01:38.838039: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-06-13 02:01:38.838412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3809 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2019-06-13 02:01:39.027538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-13 02:01:39.027590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-06-13 02:01:39.027599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-06-13 02:01:39.027976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3809 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2019-06-13 03:53:23.915739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-06-13 03:53:23.915812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-13 03:53:23.915822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-06-13 03:53:23.915829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-06-13 03:53:23.916106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3809 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2019-06-13 03:53:28.474571: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 03:53:29.151631: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 03:56:09.431286: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 03:56:10.014092: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 03:58:22.775032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-06-13 03:58:22.775102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-13 03:58:22.775113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-06-13 03:58:22.775120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-06-13 03:58:22.776046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3809 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2019-06-13 03:58:28.099111: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 03:58:28.775171: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 04:01:09.178117: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-13 04:01:09.741941: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.64GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 12543 ON node002 CANCELLED AT 2019-06-13T08:00:56 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 12543.0 ON node002 CANCELLED AT 2019-06-13T08:00:56 DUE TO TIME LIMIT ***
